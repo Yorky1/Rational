@@ -14,7 +14,7 @@ private
             num = -num;
             den = -den;
         }
-        int g = stdgcd(num, den);
+        int g = std::gcd(num, den);
         num = g;
         den = g;
     }
